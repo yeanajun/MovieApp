@@ -25,10 +25,8 @@ export default function(SpecificComponent, option, adminRoute = null) {
                         props.history.push('/')
                     } else {
                         if(option === false)
-                        props.history.push('/')
+                            props.history.push('/')
                     }
-
-
 
                 }
             })
